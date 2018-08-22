@@ -1,4 +1,3 @@
-# tweetamin
+# This is a theramin that responds to tweets wiht the hashtag #tweetmytheremin
 
-A theramin that tweets
-We use a Raspberry Pi and an ultrasonic sensor to make a theramin. Then, it tweets!
+# It is based on VL53L0X Python interface on Raspberry Pi
