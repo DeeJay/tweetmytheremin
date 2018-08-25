@@ -31,7 +31,7 @@ sudo apt-get install build-essential python-dev
 ```bash
 cd your_git_directory
 git clone https://github.com/katiefg/tweetmytheremin.git
-cd VL53L0X_rasp_python
+cd tweetmytheremin
 make
 ```
 
