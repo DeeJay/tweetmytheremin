@@ -1,6 +1,5 @@
 from twython import TwythonStreamer
 from time import sleep
-#import pandas as pd
 import re
 import time
 from pythonosc import udp_client
@@ -15,7 +14,8 @@ class MyStreamer(TwythonStreamer):
             sender.send_message('/play_this', notelist)
             print("done")
 
-#Insert your auth keys
+#Insert your auth keys here
+
 consumer_key = ''
 consumer_secret = ''
 access_key = ''
@@ -25,7 +25,6 @@ def get_number(mostrecent):
     result = re.findall(r'\d+',mostrecent)
     return [int(x) for x in result]
 
-#getTweets()
 
 stream = MyStreamer(
     consumer_key,
