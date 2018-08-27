@@ -38,6 +38,11 @@ make
 * Next, make sure Twython is installed:
 ```sudo pip3 install twython```
 
+* Open tweetmytheremin.py in the python folder and insert your consumer_key, consumer_secret, access_key and access_secret after where it says on line 17:
+``` #Insert your auth keys here ```
+* For more on how to get an these keys/secrets, go [to this page.](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html) It may take a while for these to go through, so if you're in the Picademy Leicester cohort and want to test this out while you wait for your own keys, DM me on twitter.
+
+
 
 # LIDAR theramin:
 
