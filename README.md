@@ -50,7 +50,7 @@ make
 * Run VL53L0X_example.py. You should be able to hear noise from the speaker that changes the closer you bring your hand.
 
 
-# Use tweetable theramin:
+# Use tweetable theremin:
 * Open runthisfirst.rb in Sonic Pi, and run it. This will allow Sonic Pi to listen for your python code.
 * Run tweetmytheremin.py
 * Tweet with the hashtag #tweetmytheremin or get someone else to do it, and include MIDI notes. You should see the notes print in Sonic Pi, and hear them on the speaker!
