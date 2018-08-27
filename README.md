@@ -1,6 +1,6 @@
-# Tweetamin
+# Tweet My Theremin
 
-This is a theramin that responds to LIDAR sensor input OR to tweets that include the hashtag #tweetmytheremin.
+This is a theremin that responds to LIDAR sensor input OR to tweets that include the hashtag #tweetmytheremin.
 
 It is based on John Bryan Moore's VL53L0X Raspberry Pi code (https://github.com/johnbryanmoore/VL53L0X_rasp_python), and in fact, most of the code is just that code! We included a copy of his README here as well, it is called README_VL530X_rasp_python.md.
 
@@ -44,7 +44,7 @@ make
 
 
 
-# LIDAR theramin:
+# LIDAR theremin:
 
 * Open runthisfirst.rb in Sonic Pi, and run it. This will allow Sonic Pi to listen for your python code.
 * Run VL53L0X_example.py. You should be able to hear noise from the speaker that changes the closer you bring your hand.
